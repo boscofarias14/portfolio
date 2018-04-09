@@ -1,0 +1,386 @@
+*{
+	font-family:'Roboto';
+}
+body{
+  margin:0;
+  padding:0;
+  
+}
+header{
+	background-image:url('../images/tottenham-background.jpg');
+	max-width:100%;
+	background-position: center;
+	background-size:cover;
+	height:500px;
+}
+div.container{
+	margin:0 auto;
+	max-width:1200px;
+	display:flex;
+	height:100%;
+}
+.column{
+	flex-direction:column;
+}
+.center{
+	justify-content:center;
+	align-items:center;
+}
+.between{
+	justify-content: space-between;
+}
+div.container-header{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+	flex:0 0 auto;
+}
+div.logo img{
+	width:60px;
+	height:auto;
+}
+div.container-header nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	display: flex;
+}
+div.container-header nav ul li a{
+	padding: 15px;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-size:0.8em;
+	color:#fff;
+}
+div.title{
+	flex:1 1 100%;
+	justify-content:center;
+	display: flex;
+	align-items:center;
+}
+div.title h1{
+	font-weight:700;
+	letter-spacing:15px;
+	font-size:5em;
+	
+}
+div.title h3{
+	font-weight:300;
+	letter-spacing:10px;
+	text-transform: uppercase;
+}
+div.title h1,
+div.title h3{
+	font-family:'Open Sans';
+	margin:0;
+	padding:0;
+	color:#fff;
+}
+div.horizontal-bar{
+	width:200px;
+	height:1px;
+	background-color:#999;
+	margin:30px auto 0 auto;
+}
+button.btn-around{
+	background-color:#2f97a8;
+	border: none;
+	border-radius:25px;
+	color:#fff;
+	height:50px;
+	width:auto;
+	padding:0 20px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	cursor: pointer;
+	font-size:0.7em;
+}
+section.section1{
+	background-color:#0c2352;
+	height:200px;
+}
+div.section1-text{
+	text-align:center;
+}
+section.section1 h3{
+	font-weight:300;
+	font-size:1.4em;
+}
+section.section1 h4{
+	font-size:0.8em;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	font-weight: 400;
+}
+section.section1 h3,
+section.section1 h4{
+	color:#fff;
+	margin:0;
+	font-family:'Open Sans';
+}
+section.section1 button{
+	background-color:unset;
+	border:1px solid #fff;
+	margin-top:15px;
+}
+section.section1 button:hover{
+	background-color:#fff;
+	color:#0c2352;
+}
+section.tottenham-description button{
+	width:250px;
+	background-color:unset;
+	color:#0c2352;
+	border:1px solid #0c2352;  
+}
+div.section-text,
+div.section-img{
+	margin:10px;
+}
+div.section-text{
+	flex:1 1 auto;
+	justify-content:center;
+	display: flex;
+	flex-direction: column;
+	width:100%;
+}
+div.section-img{
+	flex:0 0 auto;
+}
+div.section-text h3{
+	font-size:2em;
+	color:#020036;
+	font-weight:700;
+	margin:0;
+}
+div.section-text span{
+	font-weight:300;
+	font-size:1.5em;
+}
+div.section-text p{
+	font-size:0.9em;
+	line-height:1.5em;
+	font-weight:300;
+}
+section.stadium{
+	background-color:#020036;
+	color:#fff;
+	padding:15px;
+}
+section.stadium h3{
+	color:#fff;
+}
+div.players-description,
+div.fans-description,
+div.spurs-data{
+	display:flex;
+	align-items: center;
+    justify-content: center;
+	flex:1 1 50%;
+	width:100%;
+	padding:0 20px;
+}
+div.players-description a{
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-size:0.8em;
+	color:#2f97a8;
+}
+div.pics-players{
+	display:flex;
+	flex:0 0 50%;
+}
+div.pics-players .player-info{
+	position:absolute;
+	bottom:5px;
+	left:15px;
+	z-index:1;
+}
+div.pics-players h5,
+div.pics-players h6{
+	color:#fff;
+	font-weight:700;
+	font-size:1.2em;
+	display:block;
+	margin:0;
+	padding:0;
+}
+div.pics-players h6{
+	font-weight:300;
+	font-size:0.9em;
+}
+
+div.player1{background-image: url('../images/kane.jpg');}
+div.player2{background-image: url('../images/alli.jpg');}
+div.player3{background-image: url('../images/lloris.jpg');}
+div.player4{background-image: url('../images/pochettino.jpg');}
+div.player1,
+div.player2,
+div.player3,
+div.player4{
+	position: relative;
+	flex:1 1 50%;
+	height:200px;
+	filter:grayscale(100%);
+	background-size: cover;
+}
+div.fans-description{
+	background-image:url('../images/torcida.jpg');
+	background-position:center;
+	color:#fff;
+}
+div.fans-description h3{color:#fff;}
+div.data,
+div.info-img{flex:1 1 50%;}
+div.spurs-data{
+	background-color:#020036;
+	color:#fff;
+}
+div.spurs-data h3{color:#fff;}
+div.info-img{
+	background-image:url('../images/tottenham-section2.jpg');
+	height:auto;
+	background-position:center;
+	background-size:cover;
+	flex:0 0 50%;
+}
+div.container-text{
+	margin-bottom:30px;
+}
+div.data-links{
+	display: flex;
+	justify-content: space-between
+}
+div.data-links a{
+	text-decoration:none;
+	text-transform: uppercase;
+	color:#fff;
+	font-size:0.8em;
+	letter-spacing: 2px;
+}
+div.data-links a.active{
+	color:#63657e;
+}
+div.spurs-data div.horizontal-bar{
+	width:100%;
+	margin-top:10px;
+}
+div.spurs-stats{
+	display:flex;
+	margin-top: 20px;
+}
+div.stats1{
+	margin:10px;
+	padding:10px;
+}
+div.spurs-stats h5{
+	margin:0;
+	font-size:2em;
+	color:#63657e;
+	font-weight:300;
+	text-align: center;
+}
+div.with-border{
+	border-left:1px solid #999;
+	border-right:1px solid #999;
+}
+div.spurs-stats p{
+	margin:0;
+	font-size:0.8em;
+}
+div.spurs-stats div{
+	flex:1 1 33.333%;
+	justify-content: center;
+}
+div.spurs-conquests{
+	padding:20px;
+	display:flex;
+	flex-direction: column;
+	flex:1 1 50%;
+}
+section.conquests div.info-img{
+	background-image:url('../images/tottenham-conquests.jpg');
+}
+div.conquest-box{
+	display:flex;
+	margin: 10px 0;
+}
+div.conquest-name,
+div.image-trophy{
+	display: flex;
+	justify-content:center;
+}
+div.image-trophy{
+	flex:0 0 15%;
+}
+div.conquest-name h5,
+div.conquest-name p{
+	margin:0;
+}
+div.conquest-name h5{
+	font-size:1.1em;
+}
+div.conquest-name p{
+	font-size:0.8em;
+}
+footer{
+	padding:40px;
+	background-color:#ece9e9;
+}
+footer ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+footer ul li a{
+	padding-bottom:10px;
+	text-decoration:none;
+	color:#000;
+	font-size:0.8em;
+}
+div.logo-footer{
+	display:flex;
+	justify-content: center;
+	flex:0 0 25%;
+	align-items:center;
+}
+div.quick-links{
+	flex: 0 0 25%;
+	display: flex;
+	justify-content: center;
+	align-items:flex-start;
+}
+div.quick-links h4{
+	margin:0;
+	margin-bottom:20px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	font-size:0.9em;
+	color: #020036;
+}
+div.contact{
+	display:flex;
+	flex-direction: column;
+	align-items: flex-start;
+	font-size:0.8em;
+}
+div.contact i{
+	text-align:center;
+	font-size:1.5em;
+	color: #020036;
+}
+div.address{
+	display:flex;
+	margin-bottom: 10px;
+	justify-content: center;
+}
+div.icon-adderss {
+    flex: 0 0 50px;
+    justify-content: center;
+    align-items: center;
+	display: flex;
+}
+div.text-address{
+	flex: 0 0 auto;
+}
