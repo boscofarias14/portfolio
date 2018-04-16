@@ -1,0 +1,75 @@
+body, html, h1, h2, h3 {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Roboto"; }
+
+.container {
+  width: 960px;
+  margin: 0 auto; }
+
+.flex {
+  display: flex; }
+
+.btn {
+  border: 2px solid #fa9641;
+  border-radius: 5px;
+  background-color: #fa9641;
+  color: #fff;
+  width: 100px;
+  padding: 5px;
+  font-family: "Roboto"; }
+
+header {
+  background-color: #2f2f2f;
+  height: 100px;
+  font-family: "Roboto";
+  display: flex; }
+  header .container {
+    justify-content: space-between;
+    align-items: center;
+    display: flex; }
+    header .container nav ul {
+      list-style: none;
+      display: flex; }
+      header .container nav ul li {
+        padding: 15px; }
+        header .container nav ul li a {
+          color: #fff;
+          text-decoration: none; }
+
+main section.content {
+  width: 100%;
+  background-color: #f1f1f1; }
+  main section.content .container {
+    display: flex; }
+    main section.content .container section.banner {
+      padding: 30px 0;
+      display: flex;
+      align-items: center; }
+      main section.content .container section.banner div {
+        padding: 0 10px; }
+      main section.content .container section.banner div.banner-img {
+        display: flex;
+        align-items: center; }
+main section.features {
+  padding: 20px 0; }
+  main section.features h2 {
+    margin: 15px; }
+main section.features article {
+  margin: 0 15px; }
+
+footer {
+  background-color: #2f2f2f;
+  padding: 20px; }
+  footer .footer-menu {
+    padding: 20px; }
+    footer .footer-menu .posts {
+      flex: 0 0 30%; }
+    footer .footer-menu .about {
+      flex: 0 0 40%; }
+    footer .footer-menu .social {
+      flex: 0 0 30%; }
+
+/*# sourceMappingURL=style.css.map */

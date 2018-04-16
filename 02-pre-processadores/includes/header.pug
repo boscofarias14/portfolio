@@ -1,0 +1,14 @@
+mixin menu(link, name)
+    li
+        a(href=link)= name
+header
+    .container
+        h1
+            img(src="assets/images/logo_bloom.png")
+        nav
+            ul
+                +menu('#', 'Home')
+                +menu('#', 'About Us')
+                +menu('#', 'Services')
+                +menu('#', 'Portfolio')
+                +menu('#', 'Contact Us')
