@@ -66,10 +66,10 @@ footer {
   footer .footer-menu {
     padding: 20px; }
     footer .footer-menu .posts {
-      flex: 0 0 30%; }
+      flex: 0 0 34%; }
     footer .footer-menu .about {
       flex: 0 0 40%; }
     footer .footer-menu .social {
-      flex: 0 0 30%; }
+      flex: 0 0 26%; }
 
 /*# sourceMappingURL=style.css.map */
