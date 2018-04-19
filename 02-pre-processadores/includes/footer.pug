@@ -1,9 +1,31 @@
+mixin post-single(data, title_post, text_post)
+    .post-single.flex
+        .data= data
+        .post-info
+            h4= title_post
+            p= text_post
+
+mixin socials(link_social, nome_social, class_social)
+    li
+        .icon-social(class=class_social)
+        a(href=link_social)=nome_social
 footer
     .container
         .footer-menu.flex
-            div.posts
+            .posts
                 h3 Latest Posts
-            div.about
+                .column
+                    +post-single('JULY 27', 'Lorem Ipsum bla bla', 'Nam non felis in turpis efficitur pellentesque sed eget arcu')
+                    +post-single('JULY 27', 'Lorem Ipsum bla bla', 'Nam non felis in turpis efficitur pellentesque sed eget arcu')
+                    +post-single('JULY 27', 'Lorem Ipsum bla bla', 'Nam non felis in turpis efficitur pellentesque sed eget arcu')
+            .about
                 h3 About
-            div.social
+                p 
+                    |Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia vel nisl at pharetra. Fusce ut nibh porttitor, ornare dui vel, sollicitudin felis. Fusce quis erat a magna egestas ultricies ac non sapien
+            .social
                 h3 Stay Connected
+                ul
+                    +socials('#', 'Facebook', 'facebook')
+                    +socials('#', 'Twitter', 'twitter')
+                    +socials('#', 'RSS', 'rss')
+                    +socials('#', 'Google+', 'google')
